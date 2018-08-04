@@ -1,0 +1,7 @@
+be/cetic/micorservices/eventsearch/service/EventBriteServiceImpl.class
+be/cetic/micorservices/eventsearch/service/EventBriteService.class
+be/cetic/micorservices/eventsearch/domain/Event.class
+be/cetic/micorservices/eventsearch/domain/EventResult.class
+be/cetic/micorservices/eventsearch/controller/SearchFromEventBriteController.class
+be/cetic/micorservices/eventsearch/router/EventsRouter.class
+be/cetic/micorservices/eventsearch/EventSearchApplication.class
