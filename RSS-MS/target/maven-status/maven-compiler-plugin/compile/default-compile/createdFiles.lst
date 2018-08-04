@@ -1,0 +1,11 @@
+be/cetic/rssfeeds/route/rest/RoutesManagementRouter.class
+be/cetic/rssfeeds/repository/ParameterRepository.class
+be/cetic/rssfeeds/route/EventRouter.class
+be/cetic/rssfeeds/domain/CamelRoute.class
+be/cetic/rssfeeds/service/impl/RSSFeedsManagementServiceImpl.class
+be/cetic/rssfeeds/service/RSSFeedsManagementService.class
+be/cetic/rssfeeds/route/rest/ApiRouter.class
+be/cetic/rssfeeds/Application.class
+be/cetic/rssfeeds/entities/Parameter.class
+be/cetic/rssfeeds/repository/RSSFeedRepository.class
+be/cetic/rssfeeds/entities/RSSFeed.class

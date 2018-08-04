@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring       http://camel.apache.org/schema/spring/camel-spring.xsd">
+    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
+        <!--        <route id="simple-route">
+            <from id="feedRSS" uri="rss:http://trafiroutes.wallonie.be/trafiroutes/Evenements_FR.rss?alt=rss&amp;splitEntries=true&amp;sortEntries=true&amp;consumer.delay=6000"/>
+            <to id="_to1" uri="mongodb:mongoBean?database=cameldb10&amp;collection=test&amp;operation=insert"/>
+            <log id="route-log" message="${body})"/>
+        </route>-->
+    </camelContext>
+    <bean class="com.mongodb.MongoClient" id="mongoBean">
+        <constructor-arg name="host" value="${mongodb.host}"/>
+        <constructor-arg name="port" value="${mongodb.port}"/>
+    </bean>
+</beans>
